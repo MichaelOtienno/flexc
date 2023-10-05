@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+h1 {
+    margin-top: 0.3rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%)
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+    margin-top: 1rem;
+    font-weight: 200;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+}
+
+.words {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.cards {
+    display: flex;
+    padding: 10px;
+    justify-content: center; 
+}
+
+.team,
+.calc,
+.sup,
+.karma {
+    box-shadow:
+        -10px 0 10px rgba(0, 0, 0, 0.1),
+        10px 0 10px rgba(0, 0, 0, 0.1),
+        0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: left;
+    position: relative;
+    margin: 10px;
+}
+
+.team img,
+.calc img,
+.sup img,
+.karma img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.team,
+.karma {
+    flex: 1; 
+    width: auto; 
+}
+
+.team{
+    border-top: solid hsl(0, 78%, 62%) 3px;
+}
+.sup{
+    border-top: solid hsl(180, 62%, 55%) 3px;
+}
+.calc{
+    border-top: solid hsl(212, 86%, 64%) 3px;
+}
+.karma{
+    border-top: solid hsl(34, 97%, 64%) 3px;
+}
+
